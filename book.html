@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Topaz View – A Best Place To Stay</title>
+    <link rel="stylesheet" href="book.css">
+    <link rel="stylesheet" type="text/css" href="navbar.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="validate.js" defer></script>
+</head>
+<body>
+    <script>
+    //Jquery
+    function navbarchange() {
+        var $navbar = $("#navbar");
+        $navbar.toggleClass("responsive");
+    }
+
+    </script>
+
+    <div class="nav-container" id="navbar">
+        <h1>Topaz View</h1>
+        <li><a class="book" href="book.html" style="color: white;">Contact Us</a></li>
+        <li><a href="facility.html">Facilities</a></li>
+        <li><a href="rooms.html">Rooms</a></li>
+        <li><a href="index.html">Home</a></li>
+        <a class="icon" onclick="navbarchange()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </div>
+
+    <div class="background">
+        <div class="home">
+            <div id="home-left">
+                <h1>Contact Us</h1>
+            </div>
+        </div>
+
+        <div class="contact">
+            <div id="contact-text">
+                <p style="font-size: 20px">
+                    Address:98 West 21th Street, Suite 721 New York NY 10016
+                </p>
+                <p style="font-size: 20px">
+                    Phone:(+1) 234 4567 8910
+                </p>
+                <p style="font-size: 20px">
+                    Email:info@domain.com
+                </p>
+            </div>
+            <div id="contact-text2">
+                <form onsubmit="return validateForm()">
+                    <input type="text" id="name" name="name" placeholder="Your Full Name"><br>
+                    <input type="email" id="email" name="email" placeholder="Your Email"><br>
+                    <textarea id="message" placeholder="Your Message"></textarea>
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </div>
+
+    </div>
+
+    <br><br><br><br><br><br>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Topaz View. All Rights Reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
+
+<!--
+hi :3333
+-->

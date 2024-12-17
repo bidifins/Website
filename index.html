@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Topaz View – A Best Place To Stay</title>
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" type="text/css" href="navbar.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <script>
+    //Jquery
+    function navbarchange() {
+        var $navbar = $("#navbar");
+        $navbar.toggleClass("responsive");
+    }
+
+    //Javascript
+    function validateForm() {
+        var name = document.getElementById('name').value;
+        var email = document.getElementById('email').value;
+        var phone = document.getElementById('message').value;
+
+        if (name === '' || email === '' || message === '') {
+            alert('Please fill out all required fields.');
+            return false;
+        }
+
+        return true;
+    }
+    //<p>Address: 123 Luxury St, City, Country</p>
+    //<p>Phone: (123) 456-7890</p>
+    //<p>Email: info@hotelname.com</p>
+
+    </script>
+
+    <div class="nav-container" id="navbar">
+        <h1>Topaz View</h1>
+        <li><a class="book" href="book.html" style="color: white;">Contact Us</a></li>
+        <li><a href="facility.html">Facilities</a></li>
+        <li><a href="rooms.html">Rooms</a></li>
+        <li><a href="index.html">Home</a></li>
+        <a class="icon" onclick="navbarchange()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </div>
+
+    <div class="home">
+        <div id="home-left" style = "text-align:center">
+            <h1 style="font-size: 40px;">Welcome to Topaz View</h1>
+            <p style="font-size: 70px;">A Best Place To Stay</p>
+        </div>
+    </div>
+
+    <br><br><br><br><br><br>
+
+    <div class="about">
+        <div id="about-text">
+            <br><br><br><br><br><br>
+            <h1>Welcome!</h1>
+            <p style="font-size: 20px;">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+            <button onclick="document.location='about.html'">Learn More</button>
+        </div>
+        <div id="about-img">
+            <img src="images/home2.jpg">
+        </div>
+    </div>
+
+    <br><br><br><br><br><br>
+
+    <h1 id="facility-title" style="text-align: center; font-size: 45px;">Rooms & Suites</h1>
+    <h1 id="facility-title" style="text-align: center; font-size: 15px; width: 50%; margin: auto; color: gray;">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</h1>
+
+    <br><br>
+
+    <div class="room">
+        <div id="r1">
+            <div><img src="Img/Junior.jpg"></div>
+            <h3>Suite Room</h3>
+            <p>A luxurious room with a stunning view of the city.</p>
+        </div>
+        <div id="r2">
+            <div><img src="Img/Family-Room-Bedroom.jpg"></div>
+            <h3>Family Room</h3>
+            <p>A perfect room for your family.</p>
+        </div>
+    </div>
+
+    <br>
+
+    <div id="facility-btn">
+        <button onclick="document.location='rooms.html'">View More</button>
+    </div>
+
+    <br><br><br><br><br><br>
+
+    <h1 id="facility-title" style="text-align: center;">Facilities</h1>
+
+    <div class="facility">
+        <div id="f1">
+            <img src="images/dining.jpg">
+            <h3>Restaurant</h3>
+        </div>
+        <div id="f2">
+            <img src="images/pool.jpg">
+            <h3>Rooftop Pool</h3>
+        </div>
+        <div id="f3">
+            <img src="images/meeting_wide.jpg">
+            <h3>Meeting Room</h3>
+        </div>
+    </div>
+
+    <br>
+
+    <div id="facility-btn">
+        <button onclick="document.location='facility.html'">See More</button>
+    </div>
+
+    <br><br><br><br><br><br>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Topaz View. All Rights Reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>

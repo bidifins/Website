@@ -1,0 +1,197 @@
+body {
+    font-family: Cambria;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: auto;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 800px) { 
+    #home-left {
+        /*color: white;*/
+        padding-top: 0px;
+        padding-left: 0px;
+    }
+}
+
+.background {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.home {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.home h1 {
+    padding-top: 35px;
+    padding-bottom: 50px;
+    text-align: center;
+    font-size: 40px;
+    color: black;
+}
+
+#facility-title {
+    padding-top: 75px;
+}
+
+.booking {
+    border-radius: 50px;
+    width: 500px;
+    margin: auto;
+    font-size: 20px;
+    background-color: white;
+    padding-top: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 25px;
+}
+
+form {
+    font-family: Corbel;
+    width: 100%;
+    text-align: center;
+}
+
+#date-div {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+#date-div div {
+    width: 41.7%;
+    margin: 10px;
+}
+
+#date-left {
+    float: left;
+}
+
+#date-right {
+    float: right;
+}
+
+form label, form input, form select, form button {
+    margin: 2%;
+}
+
+form label, form input, form select, form textarea {
+    margin: 2%;
+    border-radius: 10px;
+}
+
+form input {
+    padding: 0.5em;
+    width: 80%;
+}
+
+form select {
+    padding: 0.5em;
+    width: 84%;
+}
+
+textarea {
+    resize: vertical;
+    width: 84%;
+}
+
+#credit-card { 
+    display: none; 
+}
+
+form button {
+    padding: 0.5em 2em;
+    background-color: #007FFF;
+    border-radius: 50px;
+    color: #fff;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #005CB9;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
+
+.contact {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.contact div {
+    width: 500px;
+    margin: 10px;
+}
+
+#contact-text2 {
+    float: right;
+}
+
+form {
+    font-family: Corbel;
+    width: 100%;
+    text-align: center;
+}
+
+form label, form input, form select, form button {
+    margin: 2%;
+}
+
+form label, form input, form select, form textarea {
+    margin: 2%;
+    border-radius: 10px;
+}
+
+form input {
+    padding: 0.5em;
+    width: 98%;
+    height: 50px;
+}
+
+form select {
+    padding: 0.5em;
+    width: 98%;
+    height: 50px;
+}
+
+textarea {
+    resize: vertical;
+    width: 100%;
+    height: 150px;
+}
+
+form button {
+    padding: 0.5em 2em;
+    background-color: #ffc87c;
+    border-radius: 50px;
+    color: #fff;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #cfa05f;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
